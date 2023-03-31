@@ -57,7 +57,7 @@ Multiple factors contributes to the overall difficulty of the challenge, such as
    compute the balance for that date.
 3. Some accounts do not have transactions for a long period of time, and this
    should be reflected in the average booked balance result.
-4. `creation_timestamp` can be either before or after the `reference_timestemp`.
+4. `creation_timestamp` can be either before or after the `reference_timestamp`.
 5. Different accounts can have different `reference_timestemp` values. 
 
 
@@ -74,13 +74,13 @@ This repo contains all the material required to run the challenge. Specifically
    `account_booked_balance_mean_3mo_reference_timestamps.csv` 
    also contains the value of the average booked balance for each account 
    computed using our proprietary algorithm for reference and testing purposes
-  * `tests/test_average_booked_balance.py` contains a unit test that verifies
-     that the results obtained by your function match with the ones computed
-     with our proprietary one. To run the test you need to have `pytest` 
-     installed, and then run on a shell
-     ```shell
-     pytest
-     ```
+* `tests/test_average_booked_balance.py` contains a unit test that verifies
+   that the results obtained by your function match with the ones computed
+   with our proprietary one. To run the test you need to have `pytest` 
+   installed, and then run on a shell
+   ```shell
+   pytest
+   ```
 
 ## Evaluation criteria
 
