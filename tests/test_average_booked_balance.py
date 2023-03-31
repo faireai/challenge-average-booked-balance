@@ -6,11 +6,11 @@ from pandas._testing import assert_series_equal
 from challenge.average_booked_balance import average_booked_balance_from
 
 
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
+class TestAverageBalance(unittest.TestCase):
+    def test_average_balance(self):
         transactions = pandas.read_csv('tests/fixtures/account_booked_balance_mean_3mo_transactions.csv')
         accounts = pandas.read_csv('tests/fixtures/account_booked_balance_mean_3mo_accounts.csv')
-        results = pandas.read_csv('tests/fixtures/account_booked_balance_mean_3mo_results.csv',
+        results = pandas.read_csv('tests/fixtures/account_booked_balance_mean_3mo_reference_timestamps.csv',
                                   index_col=['reference_timestamp', 'account_id']).squeeze("columns")
         reference_timestamps = results.index.to_frame(index=False)
 
