@@ -34,7 +34,7 @@ before the `reference_timestamp`, i.e.
 where
 
 ```math
-D = \mbox{days between (reference\_timestamp - 90days) and (reference\_timestamp)}
+D = \{\mbox{days between (reference\_timestamp - 90days) and (reference\_timestamp)}\}
 ```
 
 For example if we have
