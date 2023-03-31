@@ -81,6 +81,9 @@ This repo contains all the material required to run the challenge. Specifically
    ```shell
    pytest
    ```
+* `requirements.txt` contains the libraries to install to run this challenge.
+  The list shipped with the repository is not exhaustive, and you can add
+  other libraries if required.
 
 ## Evaluation criteria
 
