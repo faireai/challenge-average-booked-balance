@@ -45,9 +45,9 @@ For example if we have
 
 the function should return:
 * the average value of the balance observed each day between 
-  `2016-12-31 23:59:59.999` and `2016-03-31 23:59:59.999` for `ac_1`
+  `2016-12-31 23:59:59.999` and `2017-03-31 23:59:59.999` for `ac_1`
 * the average value of the balance observed each day between
-  `2017-01-15 23:59:59.999` and `2016-04-15 23:59:59.999` for `ac_2`.
+  `2017-01-15 23:59:59.999` and `2017-04-15 23:59:59.999` for `ac_2`.
 
 Multiple factors contributes to the overall difficulty of the challenge, such as
 
